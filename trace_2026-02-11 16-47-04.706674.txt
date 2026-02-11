@@ -1,0 +1,50 @@
+2026-02-11 16:47:11.738085
+Node: ask_model_to_reason (entry)
+----
+2026-02-11 16:47:13.194768
+Node: ask_model_to_reason (exit)
+content='Vamos utilizar a ferramenta get_product_price para obter os preços dos produtos necessários:' additional_kwargs={'usage': {'prompt_tokens': 415, 'completion_tokens': 82, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 497}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} response_metadata={'usage': {'prompt_tokens': 415, 'completion_tokens': 82, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 497}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} id='run--019c4e75-3b7a-7ab1-b0dd-4f5c0016538b-0' tool_calls=[{'name': 'get_product_price', 'args': {'query': 'P002'}, 'id': 'toolu_bdrk_01TCBsh5ZzuXA1gKWK8r7ZVR', 'type': 'tool_call'}] usage_metadata={'input_tokens': 415, 'output_tokens': 82, 'total_tokens': 497, 'input_token_details': {'cache_creation': 0, 'cache_read': 0}}
+----
+2026-02-11 16:47:13.195129
+Edge: next_step: Proceed to tools
+content='Vamos utilizar a ferramenta get_product_price para obter os preços dos produtos necessários:' additional_kwargs={'usage': {'prompt_tokens': 415, 'completion_tokens': 82, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 497}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} response_metadata={'usage': {'prompt_tokens': 415, 'completion_tokens': 82, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 497}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} id='run--019c4e75-3b7a-7ab1-b0dd-4f5c0016538b-0' tool_calls=[{'name': 'get_product_price', 'args': {'query': 'P002'}, 'id': 'toolu_bdrk_01TCBsh5ZzuXA1gKWK8r7ZVR', 'type': 'tool_call'}] usage_metadata={'input_tokens': 415, 'output_tokens': 82, 'total_tokens': 497, 'input_token_details': {'cache_creation': 0, 'cache_read': 0}}
+----
+2026-02-11 16:47:13.198491
+Node: ask_model_to_reason (entry)
+content='Price of product P002 is 60\n' name='get_product_price' id='0ca67a3e-29ea-4a21-8d45-7dd9c3fb08f1' tool_call_id='toolu_bdrk_01TCBsh5ZzuXA1gKWK8r7ZVR'
+----
+2026-02-11 16:47:14.283326
+Node: ask_model_to_reason (exit)
+content='' additional_kwargs={'usage': {'prompt_tokens': 518, 'completion_tokens': 57, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 575}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} response_metadata={'usage': {'prompt_tokens': 518, 'completion_tokens': 57, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 575}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} id='run--019c4e75-412e-7231-8015-75118b27361a-0' tool_calls=[{'name': 'get_product_price', 'args': {'query': 'P003'}, 'id': 'toolu_bdrk_01RN7iCDwsrGsmqfBbb44y2f', 'type': 'tool_call'}] usage_metadata={'input_tokens': 518, 'output_tokens': 57, 'total_tokens': 575, 'input_token_details': {'cache_creation': 0, 'cache_read': 0}}
+----
+2026-02-11 16:47:14.283759
+Edge: next_step: Proceed to tools
+content='' additional_kwargs={'usage': {'prompt_tokens': 518, 'completion_tokens': 57, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 575}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} response_metadata={'usage': {'prompt_tokens': 518, 'completion_tokens': 57, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 575}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} id='run--019c4e75-412e-7231-8015-75118b27361a-0' tool_calls=[{'name': 'get_product_price', 'args': {'query': 'P003'}, 'id': 'toolu_bdrk_01RN7iCDwsrGsmqfBbb44y2f', 'type': 'tool_call'}] usage_metadata={'input_tokens': 518, 'output_tokens': 57, 'total_tokens': 575, 'input_token_details': {'cache_creation': 0, 'cache_read': 0}}
+----
+2026-02-11 16:47:14.287845
+Node: ask_model_to_reason (entry)
+content='Price of product P002 is 60\n' name='get_product_price' id='0ca67a3e-29ea-4a21-8d45-7dd9c3fb08f1' tool_call_id='toolu_bdrk_01TCBsh5ZzuXA1gKWK8r7ZVR'
+content='Price of product P003 is 70\n' name='get_product_price' id='51b03a24-7ba3-43ae-84dd-ac8d70a1446d' tool_call_id='toolu_bdrk_01RN7iCDwsrGsmqfBbb44y2f'
+----
+2026-02-11 16:47:15.856431
+Node: ask_model_to_reason (exit)
+content='Agora que temos os preços, podemos calcular o custo total usando a ferramenta calculator:' additional_kwargs={'usage': {'prompt_tokens': 596, 'completion_tokens': 91, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 687}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} response_metadata={'usage': {'prompt_tokens': 596, 'completion_tokens': 91, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 687}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} id='run--019c4e75-4570-7ac2-84dc-e6647f470d74-0' tool_calls=[{'name': 'calculator', 'args': {'expression': '(3 * 60) + (5 * 70)'}, 'id': 'toolu_bdrk_011CGLc16nvRyp8HVYuQtdpm', 'type': 'tool_call'}] usage_metadata={'input_tokens': 596, 'output_tokens': 91, 'total_tokens': 687, 'input_token_details': {'cache_creation': 0, 'cache_read': 0}}
+----
+2026-02-11 16:47:15.856904
+Edge: next_step: Proceed to tools
+content='Agora que temos os preços, podemos calcular o custo total usando a ferramenta calculator:' additional_kwargs={'usage': {'prompt_tokens': 596, 'completion_tokens': 91, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 687}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} response_metadata={'usage': {'prompt_tokens': 596, 'completion_tokens': 91, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 687}, 'stop_reason': 'tool_use', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} id='run--019c4e75-4570-7ac2-84dc-e6647f470d74-0' tool_calls=[{'name': 'calculator', 'args': {'expression': '(3 * 60) + (5 * 70)'}, 'id': 'toolu_bdrk_011CGLc16nvRyp8HVYuQtdpm', 'type': 'tool_call'}] usage_metadata={'input_tokens': 596, 'output_tokens': 91, 'total_tokens': 687, 'input_token_details': {'cache_creation': 0, 'cache_read': 0}}
+----
+2026-02-11 16:47:15.861300
+Node: ask_model_to_reason (entry)
+content='Price of product P002 is 60\n' name='get_product_price' id='0ca67a3e-29ea-4a21-8d45-7dd9c3fb08f1' tool_call_id='toolu_bdrk_01TCBsh5ZzuXA1gKWK8r7ZVR'
+content='Price of product P003 is 70\n' name='get_product_price' id='51b03a24-7ba3-43ae-84dd-ac8d70a1446d' tool_call_id='toolu_bdrk_01RN7iCDwsrGsmqfBbb44y2f'
+content='530' name='calculator' id='ec84ed31-c426-472a-96e7-132182536c9f' tool_call_id='toolu_bdrk_011CGLc16nvRyp8HVYuQtdpm'
+----
+2026-02-11 16:47:16.982200
+Node: ask_model_to_reason (exit)
+content='Portanto, o custo total para comprar 3 unidades de P002 e 5 unidades de P003 será R$ 530.' additional_kwargs={'usage': {'prompt_tokens': 699, 'completion_tokens': 40, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 739}, 'stop_reason': 'end_turn', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} response_metadata={'usage': {'prompt_tokens': 699, 'completion_tokens': 40, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 739}, 'stop_reason': 'end_turn', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} id='run--019c4e75-4b95-7691-b53d-be75860401b6-0' usage_metadata={'input_tokens': 699, 'output_tokens': 40, 'total_tokens': 739, 'input_token_details': {'cache_creation': 0, 'cache_read': 0}}
+----
+2026-02-11 16:47:16.982865
+Edge: next_step: Proceed to end
+content='Portanto, o custo total para comprar 3 unidades de P002 e 5 unidades de P003 será R$ 530.' additional_kwargs={'usage': {'prompt_tokens': 699, 'completion_tokens': 40, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 739}, 'stop_reason': 'end_turn', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} response_metadata={'usage': {'prompt_tokens': 699, 'completion_tokens': 40, 'cache_read_input_tokens': 0, 'cache_write_input_tokens': 0, 'total_tokens': 739}, 'stop_reason': 'end_turn', 'thinking': {}, 'model_id': 'anthropic.claude-3-sonnet-20240229-v1:0', 'model_name': 'anthropic.claude-3-sonnet-20240229-v1:0'} id='run--019c4e75-4b95-7691-b53d-be75860401b6-0' usage_metadata={'input_tokens': 699, 'output_tokens': 40, 'total_tokens': 739, 'input_token_details': {'cache_creation': 0, 'cache_read': 0}}
+----
